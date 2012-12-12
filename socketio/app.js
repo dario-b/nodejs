@@ -1,7 +1,7 @@
 var app = require('http').createServer(handler)
   , url= require('url')
   , fs = require('fs')
-  , io = require('socket.io').listen(app)
+  , io = require('socket.io').listen(app);
   
 app.listen(5000);
 
@@ -48,7 +48,9 @@ function handler (req, res) {
 
 // Web Socket Connection
 io.sockets.on('connection', function (socket) {
-    
+
+  console.log("Connection established with client");    
+
   // If we recieved a command from a client to start watering lets do so
   socket.on('ping', function(data) {
       console.log("ping");
@@ -61,5 +63,6 @@ io.sockets.on('connection', function (socket) {
       }, delay*1000);
       
   });
+
   
 });

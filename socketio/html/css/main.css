@@ -1,0 +1,275 @@
+html {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    background: url("../image/sunny_background.jpg")  ;  
+}
+
+#wrapper {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+
+#top_bar {
+    padding-right: 20px;
+}
+
+#main {
+    overflow: hidden;
+}
+
+#main_left {
+    margin-right: 0px;
+    padding-left: 20px;
+    width: 250px;
+    float: left;
+}
+
+#main_centre {
+  padding-top: 50px;
+  margin-left: 0px; 
+  float: left;
+}
+
+#main_right {
+    float: left;
+}
+
+#forecast {
+    margin-top: 80px;
+    padding-left: 250px;
+    overflow: hidden;
+}
+
+.week_day {
+    width: 125px;
+    height: 151px;
+    border-right: 1px solid;
+    border-right-color: white;
+    float: left;
+}
+
+.week_day_end {
+    width: 125px;
+    height: 151px;
+    float: left;
+}
+
+.week_header {
+    width: 125px;
+    height: 36px;
+    background-image: url(../image/week_header.png); 
+}
+
+.week_body {
+    width: 125px;
+    height: 115px;
+    background-image: url(../image/week_body.png); 
+}
+
+#bottom_menu {
+    width: 1024px;
+    height: 80px;
+    background: url("../image/menu_bar.png");
+    position: absolute;
+    bottom: 0px;
+}
+
+#rooms {
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+#room1 {
+    width:  226px;
+    height: 406px;
+    margin-left:5px;
+    background: url("../image/room1.png") no-repeat;
+    float: left;
+}
+
+#room2 {
+     width:  226px;
+    height: 406px;
+    margin-left:5px;
+    background: url("../image/room2.png");
+    float: left;
+}
+
+#room3 {
+   width:  226px;
+    height: 406px;
+    margin-left:5px;
+    background: url("../image/room3.png");
+    float: left;
+}
+
+#room4 {
+    width:  226px;
+    height: 406px;
+    margin-left:5px;
+    background: url("../image/room4.png");
+     float: left;
+}
+
+
+/***********************************/
+/*              TABLES             */
+/***********************************/
+.forecast_table {
+    margin-left: 25px;
+}
+
+tbody{
+    margin: 0px;
+}
+
+tr {
+    margin: 0px;
+}
+
+td {
+    margin: 0px;
+}
+
+img {
+    margin: 0px;
+}
+
+/***********************************/
+/*              MENU               */
+/***********************************/
+
+li {
+   display: block;
+}
+
+li.menu_item_first {
+    margin-left: 0px;
+    float:left;
+    width: 50px;    
+}
+
+li.menu_item {
+    float:left;
+    margin-left: 100px;
+}
+
+
+ul
+{
+    list-style-type: none;
+    margin-top: 8px;
+}
+
+
+/***********************************/
+/*         ENVIRONMENT             */
+/***********************************/
+ul.sensors{
+    margin-top: 40px;
+    padding: 0px;
+}
+
+li.sensor_icon {
+    margin: 0px;
+    overflow: hidden;
+}
+
+
+
+/***********************************/
+/*              FONTS              */
+/***********************************/
+h1 {
+    color: white;
+    margin-bottom:70px;
+    font-size: 40px;
+}
+
+p.room_title {
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+p {
+    color: white;
+    font-family: Arial;
+    margin: 0px;
+    padding: 0px;
+}
+
+p.date {
+    margin-top: 15px;
+    text-align:right;
+    font-size: 25px;
+}
+
+p.today_forecast {
+    margin-top: 0px;
+    margin-left: 70px;
+    font-size: 40px;
+    color: yellow;
+}
+
+p.current_temp {
+    font-size: 100px;
+
+}
+
+p.weekday {
+    margin: 0px;
+    padding-top: 7px;
+    font-size: 20px;
+    text-align: center;
+}
+
+p.menu_title {
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    display: inline;
+}
+
+p.sensor_data {
+    margin-top: 15px;
+    font-size: 50px;
+    float: left;
+}
+
+td.current_temp {
+    color: white;
+    font-size: 130px;
+    font-family: Arial;
+}
+
+td.high_low {
+    color: white;
+    font-size: 40px;
+    font-family: Arial;
+}
+
+
+td.forecast_high {
+    font-size: 25px;
+    color: #3399FF;
+}
+
+td.forecast_low {
+    font-size: 25px;
+    color: #980000  ;
+}
+
+

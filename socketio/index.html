@@ -1,15 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>Test</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-  <script src="/js/jquery-2.1.1.min.js"></script>
-  <script src="/js/socket.io.js"></script>
-  <script src="/js/client.js"></script>
-</head>
-<body>
-  <button id="hello" type="button">
-      Click me!
-  </button>
-</body>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <title>Bosnjak Home Automation </title>
+        <meta name="description" content="Home Automation">
+        <link rel="stylesheet" type="text/css" href="html/css/main.css"> 
+        <script src="html/js/jquery-1.11.1.min.js"></script>
+        <script src="html/js/main.js"> </script>
+    </head>
+    
+    <body>
+        
+        <!-- start wrapper-->
+        <div id="wrapper">
+           
+            <div id="top_bar">
+            <p class="date"> Sunday, 18 April</p>
+            </div>
+            <!-- end of top_bar -->
+            
+            <div id="main">
+                <!-- Here Comes Dynamic Content -->
+            </div>
+            <!-- end of main -->
+            
+            
+            
+            
+            <div id="bottom_menu">
+                <ul>
+                    <li class="menu_item_first">
+                       <img id="home_btn" src="html/image/home_icon_48.png"/>
+                        <p class="menu_title"> Home </p>
+                    </li>
+                    
+                    <li class="menu_item">
+                        <img id="control_btn" src="html/image/control_icon_48.png" />
+                        <p>Control</p>
+                    </li>
+                    
+                    <li class="menu_item">
+                        <img id="weather_btn" src="html/image/weather_icon_48.png" />
+                        <p>Weather</p>
+                    </li>
+                
+                </ul>
+            </div>
+            <!-- end of bottom_menu -->
+           
+        </div> 
+        <!-- end wrapper -->
+        
+
+    </body>
 </html>
